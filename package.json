@@ -1,0 +1,11 @@
+{
+  "name": "toon-adapter",
+  "version": "0.1.0",
+  "description": "Compact JSON tool results for ThinkIac agent model input",
+  "type": "module",
+  "main": "index.js",
+  "logosDependencies": { "agent": "*" },
+  "manifest": { "name": "TOON Adapter", "launch": false },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "dependencies": { "@toon-format/toon": "^2.0.0" }
+}
